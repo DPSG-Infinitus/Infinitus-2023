@@ -851,7 +851,7 @@ body:hover > #trailer {
 }
 .contact{
   width: 50%;
-  height: 50%;
+  height: 60vh;
   border-radius: 20px;
   border-color: whitesmoke;
   border-width: thin;
@@ -1166,6 +1166,7 @@ a{
     }
     .contact{
       margin-top: 30%;
+      height: 40vh;
     }
     .container{
       max-height: 100vh;
@@ -1227,8 +1228,8 @@ a{
       width: 90%;
     }
     .venue-t{
-      font-size: 9vw;
-      width: 90%;
+      font-size: 8vw;
+      width: 98%;
     }
     .emoji-2 img{
       display: none;
