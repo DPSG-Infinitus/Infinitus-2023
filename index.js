@@ -200,6 +200,14 @@ window.onblur = function() {
 	audio.pause()
 }
 
+
+var venue_img = document.getElementsByClassName("venue-img");
+        new simpleParallax(venue_img,{
+            scale: 1.5,
+            orientation: "down"
+        });
+
+
 ScrollReveal().reveal('.theme-h', { delay: 200, reset: true});
 ScrollReveal().reveal('.theme-t', { delay: 200, reset: true});
 ScrollReveal().reveal('.img1', { delay: 400, reset: true});
